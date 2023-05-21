@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BatteryView">
+        <attr name="body_skeleton_color" format="color" />
+        <attr name="body_fill_color" format="color" />
+        <attr name="header_color" format="color" />
+        <attr name="body_skeleton_radius" format="flags" />
+        <attr name="body_fill_radius" format="flags" />
+        <attr name="header_radius" format="flags" />
+        <!--        body外边框和内部的距离-->
+        <attr name="distance" format="float" />
+        <!--        body和header的间距-->
+        <attr name="gap" format="float" />
+        <!--        参数基准值-->
+        <attr name="base_value" format="float" />
+        <!--        以下比例属性是相对于body宽高的值(宽对应宽，高对应高)-->
+        <attr name="width_radio" format="float" />
+        <attr name="height_radio" format="float" />
+        <!--        相对header宽度-->
+        <attr name="radius_radio" format="float" />
+        <attr name="distance_radio" format="float" />
+    </declare-styleable>
+</resources>
